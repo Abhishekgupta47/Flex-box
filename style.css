@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+
+.item{
+    background: rgba(225, 100, 42, 0.892);
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin:10px;
+}
